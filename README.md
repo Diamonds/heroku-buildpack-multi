@@ -4,11 +4,11 @@ Use multiple buildpacks on your app
 
 ## Usage
 
-    $ heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
+    $ heroku config:add BUILDPACK_URL=https://github.com/Diamonds/heroku-buildpack-multi.git
 
     $ cat .buildpacks
-    https://github.com/heroku/heroku-buildpack-nodejs.git#0198c71daa8
-    https://github.com/heroku/heroku-buildpack-ruby.git#v86
+    https://github.com/heroku/heroku-buildpack-python.git
+    https://github.com/heroku/heroku-buildpack-nodejs.git
 
 ## License
 
